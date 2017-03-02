@@ -1,0 +1,133 @@
+body {
+  padding-top: 50px;
+
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.col-sm-4 {
+	width: 45.00%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-top: 15px;
+	box-sizing: border-box;
+
+}
+.panel-default {
+	border-color: #ddd;
+	box-shadow: 0 2px 7px #236b8e;
+	margin-bottom: 3px;
+	background-color: #fff;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.panel-info {
+	border-color: #ddd;
+	box-shadow: 0 2px 7px #236b8e;
+	margin-bottom: 3px;
+	background-color: #fff;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.panel-future {
+	border-color: #ddd;
+	box-shadow: 0 2px 7px #236b8e;
+	margin-bottom: 3px;
+	background-color: #fff;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.panel-default > .panel-heading {
+	color: #333;
+	background-color: #a6d8af;
+	border-color: #ddd;
+}
+.panel-info > .panel-heading {
+	color: #333;
+	background-color: #d8bfd8;
+	border-color: #ddd;
+}
+.panel-future > .panel-heading {
+	color: #333;
+	background-color: #cdcdcd;
+	border-color: #ddd;
+}
+.panel-tittle {
+	font-size: 20px;
+	color: inherit;
+
+}
+.panel {
+	font-size: 12px;
+	color: inherit;
+}
+.panel-default > .panel-heading2 {
+	color: #333;
+	background-color: #a6d8af;
+	border-color: #ddd;
+}
+
+}
+.container-fluid {
+	background-color: #10120d;
+}
+#footerb {
+	margin-top: 100px;
+	background-color: #10120d;
+	margin-left: -50px;
+	margin-right: -65px;
+
+}
+#footerb img {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	margin-left: 80px;
+	margin-top: 50px;
+}
+.img50 {
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	margin-left: -45px;
+	margin-top: 5px;
+}
+.topic1 {
+	position: relative;
+	color: #d6d6d6;
+	padding-left: 300px;
+	padding-top: 50px;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 13px;
+
+
+}
+th {
+	color: #D3D9DF;
+}
+td {
+	color: #f71046;
+}
+
+.trademark {
+	color: #d6d6d6;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 75px;
+}
+
+a {transition: color .4s;
+	color: #f71046;
+ 	}
+a:link,
+a:hover {color: #f71046;}
+a:visited {color: #f71046;}
+a:active {
+	transition: color 0.3;
+	color: #f71046;
+}
