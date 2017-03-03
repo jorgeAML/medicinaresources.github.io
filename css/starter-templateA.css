@@ -1,0 +1,155 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.img_practice {
+	margin-left: 80px;
+}
+.img_practice2 {
+	margin-left: 80px;
+	margin-top: 30px;
+}
+
+.picturefront {
+	background-color: #d6d6d6;
+	height: 400px;
+}
+.picturefront_help {
+	height: 400px;
+	background-color:  #363636;
+}
+.picturefront_help2 {
+	height: 400px;
+	background-color:  #636363;
+}
+.picturefront_help3 {
+	height: 400px;
+	background-color:  #ffa500;
+}
+.picturefront_help4 {
+	height: 400px;
+	background-color:  #c3c3c3;
+}
+.aml_paragraph {
+	color: white;
+	padding-left: 50px;
+    position: absolute;
+    font-size: 35px;
+    margin-top: 75px;
+}
+.aml_paragraph2 {
+	color: white;
+	padding-left: 450px;
+    position: absolute;
+    font-size: 35px;
+    margin-top: 75px;
+    margin-right: 35px;
+}
+.aml_img_help img {
+	float: right;
+	margin: auto;
+	height: 400px;
+    width: 400px;
+}
+.aml_img_help2 img {
+	float: left;
+	margin: auto;
+	height: 400px;
+    width: 400px;
+}
+.col-md-4 {
+	padding-top: 20px;
+}
+.col-md-4 > img {
+	height: 300px;
+	width: 300px;
+}
+.aml_logosimg img {
+	height: 1000px;
+}
+.aml_plogo {
+	margin-left: 530px;
+    margin-top: -990px;
+    font-family: courier;
+    font-weight: bold;
+}
+.aml_plogo2 {
+	margin-top: 388px;
+    margin-left: 500px;
+    font-family: courier;
+    font-weight: bold;
+}
+.aml_plogo3 {
+	margin-left: 460px;
+    margin-top: -106px;
+    font-family: courier;
+}
+.aml_plogo4 {
+	margin-top: 486px;
+    margin-left: 230px;
+    font-family: courier;
+    font-weight: bold;
+}
+.aml_plogo5 {
+	margin-left: 710px;
+    margin-top: -22px;
+    font-family: courier;
+    font-weight: bold;
+}
+#footerb {
+	margin-top: 100px;
+	background-color: #10120d;
+	margin-left: -50px;
+	margin-right: -65px;
+}
+#footerb img {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	margin-left: 18px;
+	margin-top: -12px;
+}
+.img50 {
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	margin-left: -45px;
+	margin-top: 5px;
+}
+.topic1 {
+	position: relative;
+	color: #d6d6d6;
+	padding-left: 300px;
+	padding-top: 50px;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 13px;
+}
+th {
+	color: #D3D9DF;
+}
+td {
+	color: #f71046;
+}
+.trademark {
+	color: #d6d6d6;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 75px;
+}
+
+a {transition: color 1s;
+	color: #f71046;
+ 	}
+a:link,
+a:hover {color: #f71046;}
+a:visited {color: #f71046;}
+a:active {
+	transition: color 0.3;
+	color: #f71046;
+}
