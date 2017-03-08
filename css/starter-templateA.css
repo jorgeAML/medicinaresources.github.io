@@ -16,6 +16,7 @@ body {
 .picturefront {
 	background-color: #d6d6d6;
 	height: 400px;
+	margin-left: -115px;
 }
 .picturefront_help {
 	height: 400px;
