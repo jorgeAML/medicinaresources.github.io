@@ -23,7 +23,7 @@ El *footer* de la plataforma lo cambiaremos a solo *grids* en vez de usar *colum
     <div class="col-xs-3 col-md-3>MedicinaResources</div>
     <div class="col-xs-3 col-md-3>Catedras</div>
     <div class="col-xs-3 col-md-3>Cursos</div>
-    <div class="col-xs-3 col-md-3>Extras</div>
+    <div class="col-xs-3 col-md-3>Extras</div>d
     <div class="col-xs-3 col-md-3>Blogs</div>
   </div>
  </div>`
