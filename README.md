@@ -18,18 +18,19 @@ Medicinaresources.com tiene una gran competencia ya que los archivos más nuevos
 Medicina Resources siempre tendra nuevos proyectos para mejorar la página y seran puestos acá en este archivo .md
 ## Proyecto numero 1/2017 -Footer-
 El *footer* de la plataforma lo cambiaremos a solo *grids* en vez de usar *columnas* así el usuario lo podra ver comodamente en su celular. Se ha pensado de esta manera por si no ha quedado claro:
-> <div class="container-fluid">
+ <div class="container-fluid">
   <div class="row">
     <div class="col-xs-3 col-md-3>MedicinaResources</div>
     <div class="col-xs-3 col-md-3>Catedras</div>
     <div class="col-xs-3 col-md-3>Cursos</div>
-    <div class="col-xs-3 col-md-3>Extras</div>d
+    <div class="col-xs-3 col-md-3>Extras</div>
     <div class="col-xs-3 col-md-3>Blogs</div>
   </div>
  </div>
+ 
  MedicinaResources | Catedras | Cursos | Extras | Blogs
  ----------------- | -------- | ------ | ------ | -----
-
+ 
 Aquí daremos a conocer cuando se ha hecho el cambio pero en todas las páginas por el momento solo estará el index.html:
 - [ ] Nuevo footer en index.html incompleto
 ## Proyecto número 2/2017 -actualización para celulares-
