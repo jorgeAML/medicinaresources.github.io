@@ -19,9 +19,9 @@ Medicina Resources siempre tendra nuevos proyectos para mejorar la página y ser
 ## Proyecto numero 1/2017 -Footer-
 El *footer* de la plataforma lo cambiaremos a solo *grids* en vez de usar *columnas* así el usuario lo podra ver comodamente en su celular.
 Aquí daremos a conocer cuando se ha hecho el cambio pero en todas las páginas por el momento solo estará el index.html:
-- [] Nuevo footer en index.html incompleto
+- [ ] Nuevo footer en index.html incompleto
 ## Proyecto número 2/2017 -actualización para celulares-
 En la plataforma casi el 90% de las páginas no puede verse en el celular comodamente, quizas este sea el proyecto más largo ya que habria que revisar todas las páginas y modificarlas para que puedan verse en el celular.
 - [x] actualizado para celulares ayuda.html
-- [] actualizado para celulares index.html
+- [ ] actualizado para celulares index.html
 - [x] actualizado para celulares error.html
