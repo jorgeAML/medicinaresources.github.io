@@ -17,7 +17,8 @@ Puedes encontrar la pagina como servidor .com en: (http//www.medicinaresources.c
 Medicinaresources.com tiene una gran competencia ya que los archivos más nuevos son subidos a facebook.com o a drives de Google pero nos hemos dado cuenta que el sitio es más usado cuando algun usuario necesita algun archivo del año 2013, 2014 o 2015 del cual no encuentra en el drive de otro usuario. Incluso la logica y el como está ordenado el sitio a ayudado a los usuarios a encontrar los archivos que necesitan en menos tiempo y trabajo a como estar buscandolo en facebook o en Drive.
 Medicina Resources siempre tendra nuevos proyectos para mejorar la página y seran puestos acá en este archivo .md
 ## Proyecto numero 1/2017 -Footer-
-El *footer* de la plataforma lo cambiaremos a solo *grids* en vez de usar *columnas* así el usuario lo podra ver comodamente en su celular.
+El *footer* de la plataforma lo cambiaremos a solo *grids* en vez de usar *columnas* así el usuario lo podra ver comodamente en su celular. Se ha pensado de esta manera por si no ha quedado claro:
+
 Aquí daremos a conocer cuando se ha hecho el cambio pero en todas las páginas por el momento solo estará el index.html:
 - [ ] Nuevo footer en index.html incompleto
 ## Proyecto número 2/2017 -actualización para celulares-
@@ -25,3 +26,5 @@ En la plataforma casi el 90% de las páginas no puede verse en el celular comoda
 - [x] actualizado para celulares ayuda.html
 - [ ] actualizado para celulares index.html
 - [x] actualizado para celulares error.html
+### Contactanos por si las dudas!
+puedes enviarnos un correo o inbox a > martjorge8@gmail.com sin duda te contestaremos.
