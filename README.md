@@ -53,7 +53,7 @@ El *footer* de la plataforma lo cambiaremos a solo *grids* en vez de usar *colum
  Informacion       | Catedra Anatomia | Anatomia | Mapa del sitio | Blog del sitio
  Ayuda             | Catedra Fisiologia    | Fisiologia    | CERN           | Blog No. 2
  
-Aquí daremos a conocer cuando se ha hecho el cambio pero en todas las páginas por el momento solo estará el index.html:
+Aquí daremos a conocer cuando se ha hecho el cambio, puedes obtener informacion mas detallada sobre el proyecto en la seccion de **Proyectos** la url:[Proyectos](https://github.com/jorgeAML/medicinaresources.github.io/projects)  pero en todas las páginas por el momento solo estará el index.html:
 - [ ] Nuevo footer en index.html incompleto
 ## Proyecto número 2/2017 -actualización para celulares-
 En la plataforma casi el 90% de las páginas no puede verse en el celular comodamente, quizas este sea el proyecto más largo ya que habria que revisar todas las páginas y modificarlas para que puedan verse en el celular.
