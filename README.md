@@ -51,7 +51,7 @@ El *footer* de la plataforma lo cambiaremos a solo *grids* en vez de usar *colum
  MedicinaResources | Catedras | Cursos   | Extras         | Blogs
  ----------------- | -------- | -------- | -------------- | ---------------
  Informacion       | Catedra Anatomia | Anatomia | Mapa del sitio | Blog del sitio
- Ayuda             | Fisio    | Fisio    | CERN           | Blog No. 2
+ Ayuda             | Catedra Fisiologia    | Fisiologia    | CERN           | Blog No. 2
  
 Aquí daremos a conocer cuando se ha hecho el cambio pero en todas las páginas por el momento solo estará el index.html:
 - [ ] Nuevo footer en index.html incompleto
