@@ -19,19 +19,39 @@ Medicina Resources siempre tendra nuevos proyectos para mejorar la página y ser
 ## Proyecto numero 1/2017 -Footer-
 El *footer* de la plataforma lo cambiaremos a solo *grids* en vez de usar *columnas* así el usuario lo podra ver comodamente en su celular. Se ha pensado de esta manera por si no ha quedado claro:
  ```
- <div class="container-fluid">
+ <footer>
+ <div class="container-fluid" style="background-color: #10120d;">
   <div class="row">
-    <div class="col-xs-3 col-md-3>MedicinaResources</div>
-    <div class="col-xs-3 col-md-3>Catedras</div>
-    <div class="col-xs-3 col-md-3>Cursos</div>
-    <div class="col-xs-3 col-md-3>Extras</div>
-    <div class="col-xs-3 col-md-3>Blogs</div>
+   <div class="col-md-3">
+    <img src="pictures\IMG_2134.PNG>
+   </div>
+   <div class="col-md-8">
+    <div class="container>
+     <div class="col-md-2>
+      <p>MedicinaResources</p>
+      <p>Catedras</p>
+      <p>Cursos</p>
+      <p>Extras</p>
+      <p>Blogs</p>
+     </div>
+     <div class="col-md-2>
+      <p><a href="#"></a></p>
+      <p><a href="#"></a></p>
+      <p><a href="#"></a></p>
+     </div>
+     <div class="col-md-2>
+      <p></p>
+     </div>
+    </div>
+   </div>
   </div>
  </div>
+ </footer>
  ```
- MedicinaResources | Catedras | Cursos | Extras | Blogs
- ----------------- | -------- | ------ | ------ | -----
- 
+ MedicinaResources | Catedras | Cursos   | Extras         | Blogs
+ ----------------- | -------- | -------- | -------------- | ---------------
+ Informacion       | Anatomia | Anatomia | Mapa del sitio | Blog del sitio
+ ----------------- | -------- | -------- | -------------- | ---------------
 Aquí daremos a conocer cuando se ha hecho el cambio pero en todas las páginas por el momento solo estará el index.html:
 - [ ] Nuevo footer en index.html incompleto
 ## Proyecto número 2/2017 -actualización para celulares-
