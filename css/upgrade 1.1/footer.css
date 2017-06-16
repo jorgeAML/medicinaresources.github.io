@@ -1,0 +1,30 @@
+.col-md-3 img {
+	width: 300px;
+	height: 300px;
+}
+footer {
+	margin-top: 5%;
+}
+.copyright {
+	font-family: Verdana;
+	font-size: 12px;
+}
+.table {
+	margin-top: 2%;
+	border: 0.5px solid #10120d;
+	border-color: #10120d;
+}
+.table-condensed > thead > tr > th,
+.table-condensed > tbody > tr > td, {
+	border: 0.5px solid #10120d;
+	border-color: #10120d;
+}
+.table-condensed,
+ thead,
+ tbody,
+ tr {
+ 	border: 0.5px solid #10120d;
+}
+.table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
+    border: 1px solid #10120d; 
+}
