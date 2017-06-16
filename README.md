@@ -16,6 +16,8 @@ Puedes encontrar la pagina como servidor .com en: (http//www.medicinaresources.c
 ## La visión en medicinaresources
 Medicinaresources.com tiene una gran competencia ya que los archivos más nuevos son subidos a facebook.com o a drives de Google pero nos hemos dado cuenta que el sitio es más usado cuando algun usuario necesita algun archivo del año 2013, 2014 o 2015 del cual no encuentra en el drive de otro usuario. Incluso la logica y el como está ordenado el sitio a ayudado a los usuarios a encontrar los archivos que necesitan en menos tiempo y trabajo a como estar buscandolo en facebook o en Drive.
 Medicina Resources siempre tendra nuevos proyectos para mejorar la página y seran puestos acá en este archivo .md
+# Contribuye en MedicinaResouces
+Para poder contribuir en Medicianresources deberas de leer nuestras reglas de contribucion a la comunidad de MedicinaResources dirigete al archivo CONTRIBUTINg.md o https://github.com/jorgeAML/medicinaresources.github.io/blob/master/CONTRIBUTING.md
 ## Proyecto numero 1/2017 -Footer-
 El *footer* de la plataforma lo cambiaremos a solo *grids* en vez de usar *columnas* así el usuario lo podra ver comodamente en su celular. Se ha pensado de esta manera por si no ha quedado claro:
  ```
