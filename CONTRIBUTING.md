@@ -7,5 +7,5 @@ MedicinaResources is an open source project and we love to receive contributions
 Please, don't use the issue tracker for this. What type of questions shouldn't seen at MedicinaResources in this repository:
 * Code from your own having some bugs and you need to fix it.
 * Any instalattions that not approve from our CEO or chief Admins
-Please send your questions to this mail: medicinaofficialmail@gmail.com for any issue or new code that you feel insecured to merge with the master branch, the Chief Admins will see and you will be notify if your commits will approve.
+* Please send your questions to this mail: medicinaofficialmail@gmail.com for any issue or new code that you feel insecured to merge with the master branch, the Chief Admins will see and you will be notify if your commits will approve.
 
