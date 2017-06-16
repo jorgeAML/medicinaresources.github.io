@@ -18,7 +18,7 @@ Medicinaresources.com tiene una gran competencia ya que los archivos más nuevos
 Medicina Resources siempre tendra nuevos proyectos para mejorar la página y seran puestos acá en este archivo .md
 # Contribuye en MedicinaResouces / How contribute to MedicinaResources?
 Para poder contribuir en Medicianresources deberas de leer nuestras reglas de contribucion a la comunidad de MedicinaResources dirigete al archivo CONTRIBUTING.md o https://github.com/jorgeAML/medicinaresources.github.io/blob/master/CONTRIBUTING.md
-You can make changes or open issues with freedom to MedicinaResources but if you have doubt whit any code to introduce in our repository * you can alway read the **contributin.md** there will be all the steps to follow if you get stuck or just have any new idea to implement in MedicinaResources. And just a reminder: Thanks for contribute in MedicinaResources
+1. You can make changes or open issues with freedom to MedicinaResources but if you have doubt whit any code to introduce in our repository  you can alway read the **contributin.md** there will be all the steps to follow if you get stuck or just have any new idea to implement in MedicinaResources. And just a reminder: Thanks for contribute in MedicinaResources
 ## Proyecto numero 1/2017 -Footer-
 El *footer* de la plataforma lo cambiaremos a solo *grids* en vez de usar *columnas* así el usuario lo podra ver comodamente en su celular. Se ha pensado de esta manera por si no ha quedado claro:
  ```
