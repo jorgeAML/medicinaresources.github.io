@@ -1,13 +1,23 @@
 .col-md-3 img {
-	width: 300px;
-	height: 300px;
+	margin-top: 6%;
+	height: 250px;
+	margin-left: 18%;
+	opacity: 1.9;
+}
+.navbar li a {
+	color: #007777;
+}
+.navbar-header a {
+	color: #007777;
 }
 footer {
 	margin-top: 5%;
 }
 .copyright {
-	font-family: Verdana;
-	font-size: 12px;
+	font-family: 'Raleway', Verdana;
+}
+.media-aml {
+
 }
 .table {
 	margin-top: 2%;
@@ -27,4 +37,9 @@ footer {
 }
 .table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
     border: 1px solid #10120d; 
+}
+@media print {
+	img {
+		float: none;
+	}
 }
