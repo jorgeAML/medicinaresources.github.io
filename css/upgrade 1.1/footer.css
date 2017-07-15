@@ -139,3 +139,155 @@ hr {
 		float: none;
 	}
 }
+/*After this row is the evento1.html*/
+.col-md-4 .img_evento1 {
+	background-color: #f9f9f9;
+	padding: 5px;
+	border-radius: 1px;
+	box-shadow: 0px 1.5px 5px 1px #c0c5ce;
+	height: 350px;
+	width: 350px;
+}
+/*all elements and Object after this row is only of footer in global Web site*/
+@media (min-width: 360px) {
+	.footer_first_row {
+		margin-top: 20%;
+	}
+	.media-aml {
+		margin-top: 10%;
+	}
+}
+@media (min-width: 320px) {
+	.footer_first_row {
+		margin-top: 20%;
+	}
+	.media-aml {
+		margin-top: 10%;
+	}
+}
+@media (min-width: 768px) {
+	.footer_first_row {
+		margin-top: 0%;
+	}
+	.media-aml {
+		margin-top: 0%;
+	}
+}
+@media (min-width: 1024px) {
+	.footer_first_row {
+		margin-top: 0%;
+	}
+	.media-aml {
+		margin-top: 0%;
+	}
+}
+/*all elements after this row are in contacto.html this is for Version 1.1 */
+.aml_contactoV1, .aml_contactoV2, .aml_contactoV3 {
+	padding: 2%;
+	color: white;
+	background-color: 	#006666;
+	border: 2px solid 	#a0d6b4;
+	/*box-shadow: 0px 1.5px 5px 1px #c0c5ce;*/
+	cursor: pointer;
+}
+.aml_contacto_parrafo, .aml_contacto_parrafo2, .aml_contacto_parrafo3 {
+	padding: 3%;
+	color: 	#317873;
+	background-color: 	#dfe3ee /*#a3c1ad*/;
+	font-size: 1.2em;
+	border: 2px solid 	#49796b;
+	box-shadow: 0px 1.5px 5px 1px #c0c5ce;
+}
+.contacto_aml_href {
+	float: right;
+	color: white;
+	background-color: #65c3ba /*#317873*/;
+	padding: 1%;
+	border: 1px solid 	#a0d6b4;
+	box-shadow: 0px 1.5px 5px 1px #003333;
+	margin-top: 1%;
+}
+.contacto_aml_href:hover {
+	color:	#398564;
+}
+.icon-upload {
+	height: 12px;
+}
+.first_amlshow {
+	font-family: 'Crimson Text', serif;
+}
+.first_amlshow h1 {
+	font-size: 5rem;
+	color: #4C4849;
+}
+.first_amlshow p {
+	font-size: 2.1rem;
+	margin-right: 5%;
+	margin-left: 5%;
+	color: #C0C0C0;
+	font-size: 1.8em;
+}
+.mouseover_contacto {
+	margin-top: 5%;
+	display: inline-flex;
+}
+.a_contacto_cool h2 {
+	color: #4C4849;
+	font-family: 'Crimson Text', serif;
+	font-size: 3em;
+}
+.a_contacto_cool p {
+	color: #C0C0C0;
+	font-family: 'Crimson Text', serif;
+	font-size: 1.8em;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.a_contacto_cool:hover {
+	text-decoration: none;
+}
+.the_back1 {
+	background-color: #EEEEEE;
+}
+.qrcode {
+	width: 360px;
+	display: inline-flex;
+}
+.icon-htmlfive, .icon-cssthree, .icon-jquery, .icon-ruby {
+	color: #dfe1df;
+}
+@media (min-width: 320px) {
+	.first_amlshow h1  {
+		font-size: 2.9rem;
+	}
+	.first_amlshow p {
+		font-size: 2rem;
+	}
+	.mouseover_contacto h2 {
+		font-size: 3rem;	
+	}
+	.mouseover_contacto p {
+		font-size: 1.8rem;
+	}
+	.qrcode {
+		width: 280px;
+	}
+}
+@media (min-width: 768px) {
+	.first_amlshow h1 {
+	font-size: 5rem;
+	color: #4C4849; 
+	}
+	.first_amlshow p {
+		font-size: 2.8rem;
+	}
+	.mouseover_contacto h2 {
+		font-size: 5rem;	
+	}
+	.mouseover_contacto p {
+		font-size: 3rem;
+	}
+	.qrcode {
+		width: 412px;
+	}
+}
