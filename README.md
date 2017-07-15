@@ -1,7 +1,7 @@
 # medicinaresources.github.io
-Medicinaresoruces es una pagina de apoyo para el segundo año de medicina de la facultad de ciencias medicas, teniendo como objetivo presentar los trabajos hechos por estudiantes de un modo más ordenado y logico, con una gran base de datos recuperados desde 2012.
-Puedes encontrar la pagina como servidor .com en: (http//www.medicinaresources.com/)
-## El porque medicinaresources.com esta como recurso abierto en github?
+Medicinaresoruces it's a new page for a continue education for people like physicians, personal health and students in the field of science, one of the aims it's to have many proyects or homeworks made by students and the capability to download any time that they need it.
+You cand find the server with the extension .com on: (http//www.medicinaresources.com/)
+## Why medicinaresources.com is Open Source in github?
 * Cualquier programador puede dar ideas para que los archivos tengan una secuencia logica en la plataforma.
 * La plataforma esta en github como repositorio por si la ruta AWS dejara de funcionar o el aporte financiaro llegase a parar.
 * Cualquier programador podra dar a conocer que secciones o paginas tengan codigos mal escritos y tiene la libertad de modificarlo!
