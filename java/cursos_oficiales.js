@@ -55,7 +55,7 @@ $(document).ready(function() {
 		href: "http://www.medicinaresources.com/evento3.html",
 	});
 	//Chaining
-
+	
 	
 	$(".ana_hidden").html( "El origen de la anatomía se remonta en el antiguo Egipto, donde, ya entre los siglos XXX y XXVIII a.C. los embalsamadores fueron los primeros en poner en práctica la disección como técnica anatómica, si bien su aplicación no obedecía aún a motivaciones sanitarias o de investigación médica, sino a rituales religiosos." )
 	//Just functions for my elements
@@ -205,7 +205,207 @@ $(document).ready(function() {
 	var aml_contactoV3 = $(".aml_contactoV3");
 	var aml_contacto_parrafo3 = (".aml_contacto_parrafo3");
 	var the_back1 = (".the_back1");
-	//var btn btn-default = $(".btn btn-default");
 	//all methods .remove will be after this row.
 	$('').remove();
+	//all of this elements are in informacion.html update july 19 of 2017.
+	$(".info_aml_general1, .info_aml_general2, .iag3").hide();
+	$(".info_aml_general1").fadeIn( 2000 );
+	$(".info_aml_general2").fadeIn( 2550 );
+	$(".iag3").fadeIn( 2750 );
+	$(".info_aml_general1, .ob1, .pr1").mouseover(function() {
+		$(this).addClass("bkia");
+		$(".info_aml_general1, .ob1, .pr1").mouseleave(function() {
+			$(this).removeClass("bkia");
+		});
+	});
+	$(".info_aml_general2, .ob2, .pr2").mouseover(function(){
+		$(this).addClass("bkia");
+		$(".info_aml_general2, .ob2, .pr2").mouseleave(function(){
+			$(this).removeClass("bkia");
+		});
+	});
+	$(".iag3, .ob3, .pr3").mouseover(function(){
+		$(this).addClass("bkia");
+		$(".iag3, .ob3, .pr3").mouseleave(function(){
+			$(this).removeClass("bkia");
+		});
+	});
+	$(".ob1, .ob2, .ob3").hide();
+	$(".ob1").fadeIn( 3000 );
+	$(".ob2").fadeIn( 3500 );
+	$(".ob3").fadeIn( 3750 );
+	$(".pr1, .pr2, .pr3").hide();
+	$(".pr1").fadeIn( 4000 );
+	$(".pr2").fadeIn( 4500 );
+	$(".pr3").fadeIn( 4750 );
+	$("<h1/>", {
+		html: "Información",
+		href: "informacion.html",
+		"appendTo": ".info_aml_title",
+	});
+	$("<p/>", {
+		html: "A continuación se presenta los propositos de este dominio <br> Con sus debidos objetivos y propuestas futuras.",
+		href: "informacion.html",
+		"appendTo": ".info_aml_title",
+		"insertAfter": ".info_aml_title h1",
+	});
+	$("<h2/>", {
+		html: "Información General 1",
+		href: "información.html",
+		"appendTo": ".info_aml_general1",
+	});
+	$("<p/>", {
+		html: "MedicinaResources.com Proporcionará información actualizada de la facultad de ciencias médicas de la Universidad de San Carlos de Guatemala que sea de importancia y de uso educativo.",
+		href: "informacion.html",
+		"appendTo": ".info_aml_general1",
+		"insertAfter": ".info_aml_general1 h2",
+	});
+	$("<h2/>", {
+		html: "Información General 2",
+		href: "informacion.html",
+		"appendTo": ".info_aml_general2",
+	});
+	$("<p/>", {
+		html: "MedicinaResources es una marca registrada elaborada con usos legales educativos y agenciados por Solarin Industries y AML productions, puedes encontrar más información sobre las agencias y datos legales en la sección de logos de MedicinaResources.",
+		href: "informacion.html",
+		"appendTo": ".info_aml_general2",
+		"insertAfter": ".info_aml_general2 h2",
+	});
+	$("<hr>", {
+		"class": "hr_info",
+		href: "informacion.html",
+		"appendTo": ".info_aml_title",
+		"insertAfter": ".info_aml_title p",
+	});
+	$("<h2/>", {
+		html: "Información General 3",
+		href: "informacion.html",
+		"appendTo": ".iag3",
+	});
+	$("<p/>", {
+		html: "MedicinaResources.com no forma parte de páginas generadoras de dinero por click o pagos por descarga o enlaces a páginas a terceros que puedan llevar a páginas webs que soliciten información de los usuarios inadecuadamente.",
+		href: "informacion.html",
+		"appendTo": ".iag3",
+		"insertAfter": ".iag3 h2",
+	});
+	$("<hr>", {
+		href: "informacion.html",
+		"class": "hrta",
+		"appendTo": ".info_aml_general1",
+		"insertAfter": ".info_aml_general1 h2",
+	});
+	$("<hr>", {
+		href: "informacion.html",
+		"class": "hrta",
+		"appendTo": ".info_aml_general2",
+		"insertAfter": ".info_aml_general2 h2",
+	});
+	$("<hr>", {
+		href: "informacion.html",
+		"class": "hrta",
+		"appendTo": ".iag3",
+		"insertAfter": ".iag3 h2",
+	});
+	$("<h2/>", {
+		href: "informacion.html",
+		html: "Objetivo 1",
+		"appendTo": ".ob1",
+	});
+	$("<p/>", {
+		href: "informacion.html",
+		html: "Tener la más amplia cobertura de trabajos y documentos de apoyo para uso de los estudiantes a cualquier hora que lo necesite.",
+		"appendTo": ".ob1",
+		"insertAfter": ".ob1 h2",
+	});
+	$("<h2/>", {
+		href: "informacion.html",
+		html: "Objetivo 2",
+		"appendTo": ".ob2",
+	});
+	$("<p/>", {
+		href: "informacion.html",
+		html: "Ofrecer una amplia bibliografia en libros usados durante la carrera tanto oficiales como bibliografia complementaria que pudiera ser útil.",
+		"appendTo": ".ob2",
+		"insertAfter": ".ob2 h2",
+	});
+	$("<h2/>", {
+		href: "informacion.html",
+		html: "Objetivo 3",
+		"appendTo": ".ob3",
+	});
+	$("<p/>", {
+		href: "informacion.html",
+		html: "Cada año estara a disposición para la actualización de documentos teniendose una recopilación de trabajos hechos por estudiantes como apoyo educativo.",
+		"appendTo": ".ob3",
+		"insertAfter": ".ob3 h2",
+	});
+	$("<h2/>", {
+		href: "informacion.html",
+		html: "Propuesta 1",
+		"appendTo": ".pr1",
+	});
+	$("<p/>", {
+		href: "informacion.html",
+		html: "Ofrecer una educación continua de páginas aprobadas por la comunidad médica a nivel internacional para la fase I de la carrera.",
+		"appendTo": ".pr1",
+		"insertAfter": ".pr1 h2",
+	});
+	$("<h2/>", {
+		href: "informacion.html",
+		html: "Propuesta 2",
+		"appendTo": ".pr2",
+	});
+	$("<p/>", {
+		href: "informacion.html",
+		html: "Ser el apoyo al estudiante para las primeros tres años de la carrera de médico y cirujano de la Universidad de San Carlos de Guatemala.",
+		"appendTo": ".pr2",
+		"insertAfter": ".pr2 h2",
+	});
+	$("<h2/>", {
+		href: "informacion.html",
+		html: "Propuesta 3",
+		"appendTo": ".pr3",
+	});
+	$("<p/>", {
+		href: "informacion.html",
+		html: "Se espera que con este proyecto se evite subir más archivos a páginas inecesarias como a facebook o drive y que estén a disposición de todos y para estudiantes.",
+		"appendTo": ".pr3",
+		"insertAfter": ".pr3 h2",
+	});
+	$("<hr>", {
+		href: "informacion.html",
+		"class": "hrtb",
+		"appendTo": ".ob1",
+		"insertAfter": ".ob1 h2",
+	})
+		$("<hr>", {
+		href: "informacion.html",
+		"class": "hrtb",
+		"appendTo": ".ob2",
+		"insertAfter": ".ob2 h2",
+	})
+	$("<hr>", {
+		href: "informacion.html",
+		"class": "hrtb",
+		"appendTo": ".ob3",
+		"insertAfter": ".ob3 h2",
+	})
+	$("<hr>", {
+		href: "informacion.html",
+		"class": "hrtc",
+		"appendTo": ".pr1",
+		"insertAfter": ".pr1 h2",
+	})
+	$("<hr>", {
+		href: "informacion.html",
+		"class": "hrtc",
+		"appendTo": ".pr2",
+		"insertAfter": ".pr2 h2",
+	})
+	$("<hr>", {
+		href: "informacion.html",
+		"class": "hrtc",
+		"appendTo": ".pr3",
+		"insertAfter": ".pr3 h2",
+	})
 });
