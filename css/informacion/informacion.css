@@ -1,0 +1,80 @@
+
+/*new one new version 1.1 july of 2017*/
+.info_aml_title {
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	display: inline-block;
+	color: 	#65737e;
+}
+.info_aml_title h1 {
+	font-size: 7rem;
+}
+.info_aml_title p {
+	font-size: 4rem;
+}
+.info_aml_general1, .info_aml_general2, .iag3, .ob1, .ob2, .ob3, .pr1, .pr2, .pr3 {
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+}
+.info_aml_general1 h2 {
+	color: 	#65737e;
+	font-size: 3.5rem;
+}
+.info_aml_general1, .info_aml_general2, .iag3, .ob1, .ob2, .ob3, .pr1, .pr2, .pr3 p {
+	color: 	#a7adba;
+	font-size: 2.6rem;
+}
+.info_aml_general2 h2 {
+	color: 	#65737e;
+	font-size: 3.5rem;
+}
+.iag3 h2 {
+	color: 	#65737e;
+	font-size: 3.5rem;	
+}
+.ob1 h2 {
+	color: 	#65737e;
+	font-size: 3.5rem;	
+}
+.ob2 h2 {
+	color: #65737e;
+	font-size: 3.5rem;
+}
+.ob3 h2 {
+	color: #65737e;
+	font-size: 3.5rem;
+}
+.pr1 h2 {
+	color: #65737e;
+	font-size: 3.5rem;
+}
+.pr2 h2 {
+	color: #65737e;
+	font-size: 3.5rem;
+}
+.pr3 h2 {
+	color: #65737e;
+	font-size: 3.5rem;
+}
+/*add classes*/
+.hr_info {
+	border-top: 4px solid #6fcb9f;
+}
+.hrta {
+	border-top: 4px double #e0301e;	
+	opacity: 0.5;
+}
+.hrtb {
+	border-top: 4px double #eb8c00;	
+	opacity: 0.5;
+}
+.hrtc {
+	border-top: 4px double #005b96;	
+	opacity: 0.5;
+}
+.bkia {
+	background-color: #f7f7f7;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	box-shadow: 1px 1px 8px 1px #c0c5ce;
+}
