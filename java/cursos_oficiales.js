@@ -271,12 +271,12 @@ $(document).ready(function() {
 		"appendTo": ".info_aml_general2",
 		"insertAfter": ".info_aml_general2 h2",
 	});
-	$("<hr>", {
+	/*$("<hr>", {
 		"class": "hr_info",
 		href: "informacion.html",
 		"appendTo": ".info_aml_title",
 		"insertAfter": ".info_aml_title p",
-	});
+	});*/
 	$("<h2/>", {
 		html: "Información General 3",
 		href: "informacion.html",
@@ -407,5 +407,7 @@ $(document).ready(function() {
 		"class": "hrtc",
 		"appendTo": ".pr3",
 		"insertAfter": ".pr3 h2",
-	})
+	});
+	
+	
 });
