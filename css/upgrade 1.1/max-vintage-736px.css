@@ -1,0 +1,9 @@
+@media(max-width: 736px) {
+	.media-fg-2 {
+		margin-top: 2%;
+	}
+	.iframe-facebook {
+		width: 100%;
+		height: 500px;
+	}
+}

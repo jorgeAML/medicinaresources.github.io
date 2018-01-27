@@ -1,334 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
 <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="pictures/icon.png">
-
-	<title>Histologia Inicio</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta name="description" content="Recursos para la Facultad de Ciencias Médicas de la Universidad de San Carlos de Guatemala, anatomia, Fisiologia, bioquimica, salud publica, Semiologia médica, ayuda para estudiantes, Sección de programacion de Histología">
+  <meta name="author" content="Jorge A.M.L. AML Productions y Solarin Industries.">
+  <link rel="icon" href="pictures/icon.png">
+  <meta property="og:image" content="../pictures/icon.png" />
+	<title>Programación de Histología</title>
 	<link rel="stylesheet" type="text/css" href="css/whhg.css">
+    <!--Version 1.1-->
+    <link href="css/theme-aml/gtavone.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/upgrade 1.1/footer.css">
+    <link href="css/starter-templateA_without_hover.css" rel="stylesheet">
+    <link rel="stylesheet" media="(max-width: 736px)" href="css/upgrade 1.1/max-736px.css">
+    <link rel="stylesheet" media="(min-width: 860px)" href="css/upgrade 1.1/min-320px.css">
+    <!--old version 1.0-->
+    <!--<link rel="stylesheet" type="text/css" href="css/fisiologia/fisio_tables_index.css"> 
     <link href="css/anatomia/anatomiastyle.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/anatomia/dashboard.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="css/fisiologia/fisio_tables.css">
-    <!--<link rel="stylesheet" type="text/css" href="jumbotron.css">-->
+    <link rel="stylesheet" type="text/css" href="css/fisiologia/fisio_progra.css">
+    <link rel="stylesheet" type="text/css" href="css/fisiologia/fisio_tables.css">-->
+    <!--Bootstrap old-->
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" rel="stylesheet">
     <link href="css/bootstrap/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="css/bootstrap/ie-emulation-modes-warning.js"></script>
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!--Java-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+      <!-- Technology Tracking Code for www.medicinaresources.com -->
+    <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:530203,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105793761-1', 'auto');
+  ga('require', 'GTM-T77N5DQ');
+  ga('send', 'pageview');
+
+</script>
 </head>
-<body background="pictures/school.png">
+<body background="textures/army2.png">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <img class="img50" src="pictures\IMG_2134.PNG">
-          <a class="navbar-brand" href="index.html">Medicinaresources.com</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            
-            <li><a href="ayuda.html">Ayuda</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="informacion.html">Información</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Catedras y libros<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="https://sites.google.com/site/medusacanatomia/">Catedra de Anatomia</a></li>
-                  <li><a href="http://areafisiologiausac.blogspot.com/">Catedra de Fisiologia</a></li>
-                  <li><a href="http://histologiayembriologiausac.blogspot.com/">Catedra de Histologia</a></li>
-                  <li><a href="https://bioquimica11usac.wordpress.com/">Catedra de Bioquimica</a></li>
-                  <li><a href="salud_inicio.html">Catedra de Salud Publica</a></li>
-                  <li><a href="http://moodle.sgifacmed.net/">Catedra de Semiologia</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Libros</li>
-                  <li><a href="index_ana_libros.html">Anatomia</a></li>
-                  <li><a href="index_fisio_libros.html">Fisiologia</a></li>
-                  <li><a href="histo_books.html">Histologia</a></li>
-                  <li><a href="bioqui_books.html">Bioquimica</a></li>
-                  <li><a href="salud_books.html">Salud Publica</a></li>
-                  <li><a href="semio_books.html">Semiologia</a></li>
-                </ul>
-              </li>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<section id="gtavnav">
+<!--
+Where all the codes at? visit my repository on Github: https://github.com/jorgeAML
+-->  
+</section>
+<!--
+Where all the codes at? visit my repository on Github: https://github.com/jorgeAML
+-->
+<section id="gtavidone">
+<!--
+Where all the codes at? visit my repository on Github: https://github.com/jorgeAML
+-->
+</section>
+<!--
+Where all the codes at? visit my repository on Github: https://github.com/jorgeAML
+-->
+<section id="footer-amljs">
+<!--
+Where all the codes at? visit my repository on Github: https://github.com/jorgeAML
+-->
+</section>
 
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-<!-- This is the container fluid left-->
-<!-- body 2 -->
-<div class="body-unique">
-<!-- col-md-4 -->
-<div class="col-sm-4">
-  <div class="list-group">
-    <a href="index_histo.html" class="list-group-item active">Programacion<span class="badge">21</span></a>
-    <a href="histo_books.html" class="list-group-item">Libros<span class="badge">5</span></a>
-    <a href="histo_present.html" class="list-group-item">Presentaciones<span class="badge">22</span></a>
-    <a href="histo_present_silvia.html" class="list-group-item">Presentaciones Silvia<span class="badge">28</span></a>
-    <a href="histo_resumenes.html" class="list-group-item">Resumenes<span class="badge">40</span></a>
-    <a href="histo_sofiapellecer.html" class="list-group-item">Resumenes de Sofia Pellecer<span class="badge">7</span></a>
-    <a href="histo_laminillas1.html" class="list-group-item">Laminillas Parte 1<span class="badge">7</span></a>
-    <a href="histo_laminillas2.html" class="list-group-item">Laminillas parte 2<span class="badge">9</span></a>
-    <a href="histo_examenes.html" class="list-group-item">Parciales<span class="badge">11</span></a>
-</div>
-
-
-      <div class="panel panel-default">
-      <div class="panel-heading">
-        <h1 class="panel-title"><b>Descargar</b></h1>
-      </div>
-      <div class="panel-body">
-        <p>Todos los documentos version 2016. &nbsp; <a href="medicinaresources_staticfiles/histologia/programacion/Programacionhistologia.zip">Documentos de catedra.</a></p>
-        <hr>
-        </div>
-    </div>
-
-    <div class="panel panel-info">
-      <div class="panel-heading">
-        <h1 class="panel-title"><b>Laboratorios</b></h1>
-      </div>
-      <div class="panel-body"> 
-      <ul>
-        <li> <a class="hist1" href="medicinaresources_staticfiles/histologia/programacion/MANUAL HISTOLOGIA Y EMBRIOLOGIA 2016.pdf"></a></li>
-        <li><a  class="hist2" href="medicinaresources_staticfiles/histologia/programacion/MANUAL DE LABORATORIO SEMANA 1 A 5 Y EMBRIOLOGIA.pdf"></a></li>
-        <li><a class="hist3" href="medicinaresources_staticfiles/histologia/programacion/Manual de Laboratorio 2012.pdf"></a></li>
-        <li><a class="hist4" href="medicinaresources_staticfiles/histologia/programacion/Laboratorio 6 - Color.pdf"></a></li>
-        <li><a class="hist5" href="medicinaresources_staticfiles/histologia/programacion/Laboratorio 7 - Color.pdf"></a></li>
-        <li><a class="hist6" href="medicinaresources_staticfiles/histologia/programacion/Laboratorio 8 - Color.pdf"></a></li>
-        <li><a class="hist7" href="medicinaresources_staticfiles/histologia/programacion/Laboratorio No 9 Globo Ocular.pdf"></a></li>
-        <li><a class="hist8" href="medicinaresources_staticfiles/histologia/programacion/Laboratorio 10 Organo de Corti.pdf"></a></li>
-
-      </ul>
-      </div>
-    </div>
-
-       
-
-
-</div><!-- col-sm-4 --> 
-</div><!--body-unique-->
-
-  <div class="col-md-6">
-    <table class="table table-bordered">
-      <thead>
-        <tr bgcolor="white">
-          <th>#</th>
-          <th>Descripcion</th>
-          <th>Archivo</th>
-          <th>Descarga</th>
-          <th>Enlace</th>
-        </tr>
-      </thead>
-      <tbody>
-       <tr bgcolor="white">
-         <td>1</td>
-         <td>Hoja de Control Academico 2016</td>
-         <td>Word</td>
-         <td>Directa</td>
-         <td><a href="medicinaresources_staticfiles/histologia/programacion/HOJA DE CONTROL ACADEMICO HISTOLOGIA 2016.docx"><button type="button" class="btn btn-xs btn-info">Descargar</button></a></td>
-       </tr>
-        <tr bgcolor="white">
-         <td>2</td>
-         <td>Programacion de histologia 2015</td>
-         <td>Word</td>
-         <td>Directa</td>
-         <td><a href="medicinaresources_staticfiles/histologia/programacion/programadehistologia2015-150121101725-conversion-gate01.docx"><button type="button" class="btn btn-xs btn-info">Descargar</button></a></td>
-       </tr>
-        <tr bgcolor="white">
-         <td>3</td>
-         <td>Trabajo de investigacion pollo</td>
-         <td>Word</td>
-         <td>Directa</td>
-         <td><a href="medicinaresources_staticfiles/histologia/programacion/Trabajo de Investigación de Histología.docx"><button type="button" class="btn btn-xs btn-info">Descargar</button></a></td>
-       </tr>
-          <tr bgcolor="white">
-         <td>4</td>
-         <td>Programa anual 4 parciales 2016</td>
-         <td>Word</td>
-         <td>Directa</td>
-         <td><a href="medicinaresources_staticfiles/histologia/programacion/PROGRAMA ANUAL histo 4 parciales 2016.doc. completo.doc dra. helen morales casasola.doc"><button type="button" class="btn btn-xs btn-info">Descargar</button></a></td>
-       </tr>
-        <tr bgcolor="white">
-         <td>5</td>
-         <td>Programa Oficial 4 parciales 2016</td>
-         <td>Word</td>
-         <td>Directa</td>
-         <td><a href="medicinaresources_staticfiles/histologia/programacion/PROGRAMA OFICIAL HISTOLOGIA 2016.doc actualizado 15012016 (1).doc"><button type="button" class="btn btn-xs btn-info">Descargar</button></a></td>
-       </tr>
-               <tr bgcolor="white">
-         <td>6</td>
-         <td>Caso Clinico Gastroinstestinal 2016</td>
-         <td>PDF</td>
-         <td>Directa</td>
-         <td><a href="medicinaresources_staticfiles/histologia/programacion/CASO CLINICO UNIDAD GASTROINTESTINAL HISTOLOGIA.pdf"><button type="button" class="btn btn-xs btn-info">Descargar</button></a></td>
-       </tr>
-               <tr bgcolor="white">
-         <td>7</td>
-         <td>Desarrollo embrionario pollo 2015</td>
-         <td>PDF</td>
-         <td>Directa</td>
-         <td><a href="medicinaresources_staticfiles/histologia/programacion/Desarrollo Embrionario Pollo.pdf"><button type="button" class="btn btn-xs btn-info">Descargar</button></a></td>
-       </tr>
-               <tr bgcolor="white">
-         <td>8</td>
-         <td>Guia de Receptores 2016</td>
-         <td>PDF</td>
-         <td>Directa</td>
-         <td><a href="medicinaresources_staticfiles/histologia/programacion/guia ReceptoresColor.pdf"><button type="button" class="btn btn-xs btn-info">Descargar</button></a></td>
-       </tr>
-               <tr bgcolor="white">
-         <td>9</td>
-         <td>Guia de Incubacion 2016</td>
-         <td>PDF</td>
-         <td>Directa</td>
-         <td><a href="medicinaresources_staticfiles/histologia/programacion/guiaincubacion-2016.pdf"><button type="button" class="btn btn-xs btn-info">Descargar</button></a></td>
-       </tr>
-               <tr bgcolor="white">
-         <td>10</td>
-         <td>Documento de medula espinal 2016</td>
-         <td>PDF</td>
-         <td>Directa</td>
-         <td><a href="medicinaresources_staticfiles/histologia/programacion/MEDULA ESPINAL.pdf"><button type="button" class="btn btn-xs btn-info">Descargar</button></a></td>
-       </tr>
-                      <tr bgcolor="white">
-         <td>11</td>
-         <td>Programacion Oficial 2015</td>
-         <td>PDF</td>
-         <td>Directa</td>
-         <td><a href="medicinaresources_staticfiles/histologia/programacion/PROGRAMA OFICIAL HISTOLOGIA 2016.pdf"><button type="button" class="btn btn-xs btn-info">Descargar</button></a></td>
-       </tr>
-                      <tr bgcolor="white">
-         <td>12</td>
-         <td>Programacion compacta 2015</td>
-         <td>PDF</td>
-         <td>Directa</td>
-         <td><a href="medicinaresources_staticfiles/histologia/programacion/Programación Histología 2015..pdf"><button type="button" class="btn btn-xs btn-info">Descargar</button></a></td>
-       </tr>
-                      <tr bgcolor="white">
-         <td>13</td>
-         <td>Documento de receptores 2015</td>
-         <td>PDF</td>
-         <td>Directa</td>
-         <td><a href="medicinaresources_staticfiles/histologia/programacion/Receptores2015.pdf"><button type="button" class="btn btn-xs btn-info">Descargar</button></a></td>
-       </tr>
-                                    
-      </tbody>
-      
-    </table>
-  </div>
-
-
-
-
-  
-
-  
-
-  
-
-
-<div class="aml_histo">
-<div class="container-fluid">
-<div id="footerb">
-  <img src="pictures\IMG_2134.PNG">
-  <div class="topic1">
-  
-    <table style="width:89%">
-      <tr>
-        <th class="th1" >medicinaresources</th>
-        <th class="th1" >catedras</th>
-        <th class="th1">Cursos</th>
-        <th class="th1">Extras</th>
-        <th class="th1">Blogs</th>
-      </tr>
-      <tr><td><a href="informacion.html">Informacion</a></td>
-      <td colspan=""><a href="https://sites.google.com/site/medusacanatomia/" title="A sample text link" class="link">Catedra de Anatomia</a></td>
-      <td><a href="anatomia.html"> Anatomia</a></td>
-      <td><a href="medicinaresources_map.html"> Mapa del sitio </a></td>
-      <td><a href="#">Blog sitio</a></td>
-      </tr>
-      <tr>
-      <td><a href="ayuda.html">Ayuda</a></td>
-      <td><a href="http://areafisiologiausac.blogspot.com/">Catedra de Fisiologia</a></td>
-      <td><a href="index_fisio.html">Fisiologia</a></td>
-      <td><a href="http://sociggt.wix.com/socig">socig</a></td>
-      <td><a href="http://johnnymd100.blogspot.com/">Blog jonathan Molina</a></td>
-      </tr>
-      <tr><td><a href="aviso_legal_licencia.html">Aviso legal</a></td>
-      <td><a href="http://histologiayembriologiausac.blogspot.com/">Catedra de Histologia</a></td>
-      <td><a href="index_histo.html">Histologia</a></td>
-      <td><a href="http://www.scienceinschool.org">Science in School</a></td>
-      <td><a href="http://histosgo225c12.blogspot.com/2016/01/este-es-el-enlace-para-bajar-la-guia.html">Blog Silvia Gonzales</a></td>
-      </tr>
-      <tr><td><a href="contacto.html">Contacto</a></td>
-      <td><a href="https://bioquimica11usac.wordpress.com/">Catedra de Bioquimica</a></td>
-      <td><a href="bioqui_inicio.html">Bioquimica</a></td>
-      <td><a href="http://www.nlm.nih.gov">Instituto nacional de salud</a></td>
-      </tr>
-      <tr>
-      <td><a href="logos.html">Logos</a></td>
-      <td><a href="salud_inicio.html">Catedra de Salud Publica</a></td>
-      <td><a href="salud_inicio.html">Salud Publica</a></td>
-      <td><a href="http://www.wur.nl/">Wageningen university</a></td>
-      </tr>
-      <tr><td><a href="aviso_politico_usario.html">Politica de seguridad</a></td>
-      <td><a href="http://moodle.sgifacmed.net/">Catedra de Semiologia</a></td>
-      <td><a href="semio_inicio.html">Semiologia</a></td>
-      <td><a href="http://www.eso.org/public/outreach/eduoff/">European Southern Observatory</a></td>
-      </tr>
-      <tr>
-      <td><a href="#"></a></td>
-      <td><a href="#"></a></td>
-      <td><a href="#"></a></td>
-      <td><a href="http://www.cern.ch/">CERN</a></td>
-      </tr>
-      <tr>
-      <td><a href="#"></a></td>
-      <td><a href="#"></a></td>
-      <td><a href="#"></a></td>
-      <td><a href="http://www.embl.org/">European Molecular Biology Laboratory</a></td>
-      </tr>
-            <tr>
-      <td><a href="#"></a></td>
-      <td><a href="#"></a></td>
-      <td><a href="#"></a></td>
-      <td><a href="http://www.euro-fusion.org">EUROfusion</a></td>
-      </tr>
-
-      </tbody> 
-    </table>
-
-  </div>
-  <div class="trademark">
-    <p><!--Todas las marcas y logos de--> Copyright &reg; 2016 Medicinaresources. all rigths reserved. <!--&reg;Medicina-Resources son propiedad de Solarin Industries y AML Productions.--></p>
-  </div>
-</div>
-</div><!--container-->
-</div><!--gg-->
-
-
-   <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="css/bootstrap/jquery.min.js"><\/script>')</script>
-    <script src="css/bootstrap/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="css/bootstrap/ie10-viewport-bug-workaround.js"></script>
-    <script type="text/javascript" src="java/fisio_res_query.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="css\bootstrap\jquery.min.js"><\/script>')</script>
+    <script src="css\bootstrap\bootstrap.min.js"></script>
+    <script src="css\bootstrap\ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="java\gtavone.js"></script>
+    <script type="text/javascript" src="java\jquery-3.2.1.js "></script>
 </body>
 </html>

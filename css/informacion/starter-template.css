@@ -1,4 +1,4 @@
-body {
+/*body {
   padding-top: 50px;
 
 }
@@ -130,4 +130,11 @@ a:visited {color: #f71046;}
 a:active {
 	transition: color 0.3;
 	color: #f71046;
+}*/
+/*new one*/
+.info_aml_title {
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	display: inline-block;
+	color: 	#65737e;
 }

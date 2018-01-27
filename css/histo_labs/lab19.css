@@ -1,0 +1,133 @@
+body {
+	background-color: #333333;
+}
+.lid19  {
+	font-family: 'Bitter', serif;
+	color: #e6e6fa;
+	text-align: center;
+	/*box-shadow: 1px 1px 18px 5px #191919;*/
+	padding: 2%;
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	background-image: linear-gradient(to left,#333333, #343d46 50%,#333333);
+	border-bottom: 3px solid #343d46;
+	border-top: 3px solid #343d46;
+	opacity: 0.8;
+	display: grid;
+}
+.hr19 {
+	border-top: 1px solid #e6e6fa;
+	border-bottom: 1px solid #e6e6fa;
+	border-left: 1px solid #e6e6fa;
+	border-right: 1px solid #e6e6fa;
+	margin-right: 35%;
+	margin-left: 35%;
+	box-shadow: 1px 1px 12px 2px #65737e;
+}
+.link19 {
+	color: #e6e6fa;
+	font-family: 'Bitter', serif;
+	text-decoration: none;
+}
+.link19:hover {
+	text-decoration: line;
+	color: #ffd700;
+}
+#lbd19 h4 {
+	color: #ffd700;
+	font-family: 'Bitter', serif;
+	/*margin-right: 45%;*/
+	margin-left: 5%;
+	margin-top: 2%;
+	margin-right: 10%;
+}
+#lbd19 p {
+	color: #e6e6fa;
+	font-family: 'Bitter', serif;
+	margin-right: 45%;
+	margin-left: 5%;
+}
+.idl19, .idl219 {
+	margin-left: 5%;
+	float: left;
+}
+.idl19 img {
+	float: left;
+	border-radius: 7px;
+	border: 2px solid #e6e6fa;
+	box-shadow: 2px 2px 18px 8px #191919;
+	opacity: 0.9;
+}
+.idl219 img {
+	float: left;
+	border-radius: 7px;
+	border: 2px solid #e6e6fa;
+	box-shadow: 2px 2px 18px 8px #191919;
+	opacity: 0.9;
+}
+.olc19, .ullab19, .vuli19 {
+	color: #e6e6fa;
+	font-family: 'Bitter', serif;
+	position: relative;
+	float: right;
+	margin-right: 15%;
+}
+.pol19, .pol219 {
+	color: #e6e6fa;
+	font-family: 'Bitter', serif;
+	float: inherit;
+}
+/*.ullab19 {
+	color: #e6e6fa;
+	font-family: 'Bitter', serif;
+	position: relative;
+	float: right;
+	margin-right: auto;
+}*/
+
+/*font-family: 'Faster One', cursive;
+font-family: 'Bitter', serif;*/
+/*Second part of lab19.html after vejiga urinaria */
+.vu19 {
+	font-family: 'Bitter', serif;
+	color: #e6e6fa;
+	text-align: center;
+	display: grid;
+	padding: 2%;
+	width: 90%;
+	/*height: 100%;*/
+	margin: 0 auto;
+	background-image: linear-gradient(to left,#333333, #343d46 50%,#333333);
+	border-bottom: 3px solid #343d46;
+	border-top: 3px solid #343d46;
+	opacity: 0.8;
+	/*margin-top: 92%;*/
+}
+.vudiv19 h4 {
+	color: #ffd700;
+	font-family: 'Bitter', serif;
+	margin-right: 10%;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+.vudiv19 p {
+	color: #e6e6fa;
+	font-family: 'Bitter', serif;
+	margin-right: 45%;
+	margin-left: 5%;
+}
+.vudiv219 img {
+	float: left;
+	border-radius: 7px;
+	border: 2px solid #e6e6fa;
+	box-shadow: 2px 2px 18px 8px #191919;
+	opacity: 0.9;
+	margin-left: 5%;
+}
+.pol319 {
+	color: #e6e6fa;
+	font-family: 'Bitter', serif;
+	float: left;
+	margin-left: 5%;
+}

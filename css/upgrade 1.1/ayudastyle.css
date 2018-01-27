@@ -1,12 +1,71 @@
-body p {
-	/*margin-top: 0.5%;*/
+.page-header-aml {
+	color: #ffc425;
+	text-align: left;
 }
-footer {
-	text-align: center;
-	color: gray;
+.jumbotron-aml {
+	background-color: #20242c;
+	color: #f7f7f7;
+	padding: 3%;
+	font-size: 1.5em;
+	border: 2px solid #36454f;
+	border-radius: 5px;
+	box-shadow: 0px 2px 2px 0px #111111;
+	margin-top: 3%;
 }
-.jumbotron {
-	/*margin-top: 7%;*/
+.well-aml {
+	margin-top: 3%;
+	background-color: #20242c;
+	color: #f7f7f7;
+	padding: 3%;
+	border: 2px solid #36454f;
+	border-radius: 5px;
+	font-size: 1.2em;
+	box-shadow: 0px 2px 2px 0px #111111;
+}
+.well-aml-b {
+	margin-top: 3%;
+	background-color: #20242c;
+	color: #f7f7f7;
+	padding: 3%;
+	border: 2px solid #36454f;
+	border-radius: 5px;
+	font-size: 1.2em;
+	box-shadow: 0px 2px 2px 0px #111111;
+}
+.hr-aml {
+	border: 1px dashed #36454f;
+	margin-left: 0;
+	margin-right: 50%;
+}
+.well-a {
+	color: #00d27f;
+	text-decoration: none;
+}
+.well-a:hover {
+	color: #eb8c00;
+	text-decoration: none;
+}
+/*panels panels
+panels panels
+*/
+.aml-panel {
+	background-color: #20242c;
+	margin-bottom: 1%;
+	color: #f7f7f7;
+	border-radius: 5px;
+	border: 2px solid #343d46;
+}
+.aml-heading {
+	border-bottom: 1px dashed #737171;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.aml-title {
+	font-size: 2.3rem;
+	padding: 1%;
+}
+.aml-body {
+	padding: 3%;
 }
 .img50 {
 	height: 40px;
@@ -19,6 +78,88 @@ footer {
 	color: grey;
 	text-align: right;
 }
-.col-xs-6  h2{
+/*.col-xs-6  h2{
 	display: inline;
+}*/
+/*
+Version 1.1 Actualizado el 7 de octubre del 2017
+*/
+.ultimate-hr hr {
+	border-top: 1px dashed #e8702a;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.centerio {
+	text-align: center;
+}
+#asphalt-footer {
+	/*border-top-style: ridge;*/
+	border-top:2px solid #c4268c;
+	position: relative;
+}
+#asphalt-footer:first-child:before {
+	content:'';
+    position:absolute;
+    width:100%;
+    height:2px;
+    background:linear-gradient(to left, #e8702a, #ff9900, #e8702a );
+    top:-2px;
+    left:0;
+}
+.cap-gold {
+	color: #999999/*#ffbf00*/;
+	font-weight: bold;
+}
+.cap-gold:hover {
+	color: #ffbf00/*#a67c00*/;
+	text-decoration-style: dashed;
+	text-decoration-color: #e0301e; 
+}
+/*
+TRON
+*/
+.nav-tron {
+	border-top: 2px solid #ffbf00;
+}
+.footerp-tron {
+	border-bottom: 2px solid #ffbf00;
+}
+.footerp-tron:hover {
+	text-decoration: none;
+	color: #c0c5ce;
+}
+.c9 {
+	color: #999999;
+}
+.box-controlf {
+	/*something here*/
+}
+.icon-color {
+	/*some color*/
+}
+/*
+creative commons atributions
+*/
+.font-general {
+	color: #ffe28a;
+}
+.p-font {
+	font-size: 1.4em;
+	color: #999999;
+}
+.at-4 {
+	color: #6fcb9f;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+.at-4:hover {
+	color: #e8702a;
+	text-decoration: none;
+	border-bottom: 2px solid #36454f;
+}
+.img-footer {
+	margin-top: 6%;
+	height: 250px;
+	margin-left: 18%;
+	opacity: 1.9;
 }

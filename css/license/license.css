@@ -32,3 +32,111 @@
 	filter: alpha(opacity=70);
 	font-family: 'Share Tech Mono', monospace;
 }
+/* Version 1.1 date> july 26 of 2017.*/
+.asf_logo {
+	margin-top: 6%;
+	background-color: #20242c;
+	padding: 3%;
+	border: 2px solid #36454f;
+	border-radius: 5px;
+	box-shadow: 0px 2px 2px 0px #111111;
+	align-content: center;
+	left: 0;
+	margin-left: -15px;
+}
+.asf_terms {
+	font-family: 'Crimson Text', serif;
+	color: #fbfdfb;
+	font-size: 2em;
+	background-color: #20242c;
+	border-radius: 5px;
+	box-shadow: 0px 2px 2px 0px #111111;
+	border: 2px solid #36454f;
+	padding: 3%;
+	margin-top: 3%;
+}
+.asf_p2 {
+	margin-top: 5%;
+}
+.asf_p2  p {
+	/*font-size: 1.9rem;*/
+}
+.asf_p2 h3 {
+	/*color: #468499;*/
+}
+/*
+Version 1.1 Actualizado el 7 de octubre del 2017
+*/
+.ultimate-hr hr {
+	border-top: 1px dashed #e8702a;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.centerio {
+	text-align: center;
+}
+#asphalt-footer {
+	/*border-top-style: ridge;*/
+	border-top:2px solid #c4268c;
+	position: relative;
+}
+#asphalt-footer:first-child:before {
+	content:'';
+    position:absolute;
+    width:100%;
+    height:2px;
+    background:linear-gradient(to left, #e8702a, #ff9900, #e8702a );
+    top:-2px;
+    left:0;
+}
+.cap-gold {
+	color: #999999/*#ffbf00*/;
+	font-weight: bold;
+}
+.cap-gold:hover {
+	color: #ffbf00/*#a67c00*/;
+	text-decoration-style: dashed;
+	text-decoration-color: #e0301e; 
+}
+/*
+TRON
+*/
+.nav-tron {
+	border-top: 2px solid #ffbf00;
+}
+.footerp-tron {
+	border-bottom: 2px solid #ffbf00;
+}
+.footerp-tron:hover {
+	text-decoration: none;
+	color: #c0c5ce;
+}
+.c9 {
+	color: #999999;
+}
+.box-controlf {
+	/*something here*/
+}
+.icon-color {
+	/*some color*/
+}
+/*
+creative commons atributions
+*/
+.font-general {
+	color: #ffeead;
+}
+.p-font {
+	font-size: 1.4em;
+	color: #f9f9f9;
+}
+.at-4 {
+	color: 	#ffeead;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+.at-4:hover {
+	color: #e8702a;
+	text-decoration: none;
+	border-bottom: 2px solid #36454f;
+}
