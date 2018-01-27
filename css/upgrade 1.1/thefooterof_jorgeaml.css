@@ -1,0 +1,24 @@
+.thefooterof-jorgeaml {
+	color: #e6e6fa;
+	font-family: 'Bitter', serif; 
+	text-align: center;
+	background-image: linear-gradient(to left,#333333, #343d46 50%,#333333);
+	border-bottom: 3px solid #343d46;
+	border-top: 3px solid #343d46;
+	opacity: 0.8;
+	padding: 2%;
+	width: 90%;
+	margin: 0 auto;
+	float: left;
+	margin-left: 3%;
+	display: grid;
+}
+.thefooterof-jorgeaml a {
+	color: #ffd700;
+	font-family: 'Bitter', serif;
+	text-decoration: none;
+}
+.thefooterof-jorgeaml a:hover {
+	text-decoration: line;
+	color: #e6e6fa;
+}

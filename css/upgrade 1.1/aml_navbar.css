@@ -1,0 +1,72 @@
+.aml-navbar {
+	margin: auto;
+	padding-left: 5%;
+	padding-top: 1%;
+	background-color: #4fb4ae;
+	list-style-type: none;
+	
+	margin-top: -4%;
+}
+.aml-navbar ul {
+	height: 50px;
+
+
+	width: 100%;
+}
+.aml-navbar li {
+	display: inline;
+	padding-right: 4%;
+	border-right: 2px solid #97cbc8;
+	font-family: 'Raleway', sans-serif;
+}
+.aml-navbar a {
+	display: inline-block;
+	color: white;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+.aml-navbar li a:hover {
+	background-color: ;
+	color: #97cbc8;
+	text-decoration: none;
+}
+.dropamlbtn {
+	background-color: #4fb4ae;
+	color: white;
+	border: none;
+}
+.dropdown-aml {
+	margin-left: 770px;
+	margin-top: -2.5%;
+	font-family: 'Raleway', sans-serif;
+}
+.dropdown-amlcontent {
+	display: none;
+	position: absolute;
+	float: right;
+    background-color: #97cbc8;
+    color: white;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border: 2px solid #4fb4ae;
+   
+}
+.dropdown-amlcontent a {
+    color: white
+    padding: 5px 8px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-amlcontent a:hover {
+	background-color: #97cbc8;
+	text-decoration: none;
+	color: #4fb4ae;
+}
+.dropdown-aml:hover .dropdown-amlcontent {
+    display: block;
+}
+.aml-navbar .dropdown-aml {
+	
+}
