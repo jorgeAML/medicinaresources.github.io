@@ -1,0 +1,330 @@
+/*
+All this codes are from Jorge AML the founder of AML Productions, we use Bootstrap on this but only for the grids!
+This file have control of Salud pages 
+File created DD-MM-YYYY: 19-10-2017
+Modifications DD-MM-YYYY: 23-10-2017 ** 17-11-2017 **  24-11-2017 **
+*/
+body {
+	background-image: url(./textures/vintage-concrete.png);
+}
+/*
+Navbars
+Navbars
+Navbars
+Navbars
+Navbars
+Navbars
+*/
+.imgspace {
+	height: 40px;
+	position: absolute;
+	margin-left: -50px;
+	margin-top: 5px;
+}
+.navbar-brand-aml {
+	font-size: 1.8em;
+	color: #d7c797;
+	font-family: 'Pacifico', cursive;
+	float: left;
+	height: 10px;
+	margin-top: 5px;
+}
+.navbar-brand-aml:hover {
+	color: #6bd2db;
+	text-decoration: none;
+}
+.tron-nav-control {
+	font-family: 'Viga', sans-serif;
+	font-size: 1.1em;
+	color: #f9fafc;
+}
+.nav-tron {
+	box-shadow: 0 5px 5px -3px #fb2e01;
+}
+/*
+solo-Footer
+solo-Footer
+solo-Footer
+solo-Footer
+solo-Footer
+*/
+.img-footer {
+	margin-top: 6%;
+	height: 250px;
+	margin-left: 18%;
+	opacity: 1.9;
+}
+.footerp-tron {
+	border-bottom: 2px solid #6bd2db;
+}
+.footerp-tron:hover {
+	text-decoration: none;
+	color: #c0c5ce;
+}
+.c9 {
+	color: #999999;
+	font-family: 'Viga', sans-serif;
+}
+.title-footer {
+	font-family: 'Pacifico', cursive;
+	font-size: 1.1em;
+	color: #d7c797;
+}
+.centerio {
+	text-align: center;
+}
+.ultimate-hr hr {
+	border: 0.5px dashed #fdcf58;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+#asphalt-footer {
+	border-top: 4px solid #6b3e26;
+	margin-top: 5%;
+}
+.cap-gold {
+	color: 	#d7c797;
+}
+.cap-gold:hover {
+	color: 	#6bd2db;
+}
+/*
+Links
+Links
+Links
+Links
+Links
+*/
+a {transition: color 1s;
+	color: auto;
+ 	}
+a:link,
+a:hover {color: auto}
+a:visited {color: auto;}
+a:active {
+	transition: color ;
+	color: auto;
+}
+/*
+building
+building
+*/
+/*
+section for building 
+*/
+.aml_banner_containerbooks {
+	margin-top: 7%;
+	left: 0;
+}
+.aml_banner {
+	margin-top: 6%;
+	left: 0;
+}
+/*Lists*/
+.list-group-aml {
+	background-color: #6b3e26;
+	margin-bottom: 5%;
+	border: 4px solid #d7c797;
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px 1px #845422;
+}
+.list-group-item-aml {
+	display: block;
+	padding: 3%;
+	border-bottom: 1px solid #d7c797;
+	font-family: 'Viga', sans-serif;
+	color: #f9fafc;
+}
+.list-group-item-aml:hover {
+	color: 	#6bd2db;
+	background-color: #9a8262;
+	text-decoration: none;
+}
+.badge {
+	float: right;
+}
+.active-aml {
+	color: #e8d174;
+	background-color: #555555;
+	text-decoration: dashed;
+}
+.badge-aml {
+	background-color: #d7c797;
+	color: 	#2a334f;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 3px 7px;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	float: right;
+	border: 2px solid #fdf5c9;
+}
+.badge-aml:hover {
+	background-color: #6b3e26;
+	color: #00c0db;
+}
+.mode-night {
+	background-color: #6b3e26;
+	font-family: 'Pacifico', cursive;
+	color: #f9fafc;
+	font-size: 1.2em;
+	border: 4px solid #d7c797;
+	border-radius: 5px;
+	padding: 5px;
+	box-shadow: 0px 0px 3px 1px #845422;
+}
+.center h3 {
+	text-align: center;
+}
+.top-desktop-3 {
+	margin-top: 5%;
+}
+.px-gradient {
+	border: 1px solid #d2d1d2;
+}
+/*panels panels panels panels panels*/
+.aml-panel {
+	background-color: #6b3e26;
+	border: 4px solid #d7c797;
+	margin-bottom: 5%;
+	font-family: 'Pacifico', cursive;
+	color: #f9fafc;
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px 1px #845422;
+}
+.center {
+	text-align: center;
+}
+.aml-heading {
+	border-bottom: 1px dashed #fdcf58;
+	margin-left: 55px;
+	margin-right: 55px;
+}
+.aml-title {
+	font-size: 2.3rem;
+	padding: 2%;
+	text-align: center;
+}
+.aml-body {
+	padding: 3%;
+}
+.aml-anat {
+	color: #f7f7f7;
+}
+.aml-anat:hover {
+	color: #6bd2db;
+}
+.p-army {
+	color: #f9fafc;
+	font-family: 'Viga', sans-serif;
+	font-size: 0.8em;
+}
+.p-code {
+	font-size: 1em;
+	color: #f9fafc;
+	font-family: 'Viga', sans-serif;
+}
+.p-kreon {
+	font-family: 'Viga', sans-serif;
+}
+.p-heads {
+	font-family: 'Pacifico', cursive;
+	font-weight: lighter;
+}
+/*Tables
+tables
+tables
+tables
+tables
+*/
+.table-striped,
+thead,
+th {
+	background-color: #6b3e26;
+}
+.table-striped,
+tbody,
+tr {
+	background-color: #6b3e26;
+	color: #f9fafc;
+}
+.table-striped>tbody>tr:nth-of-type(2n+1){background-color:	#a47c48}
+.table-striped {
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px 1px #845422;
+}
+.table-striped,
+ thead,
+ tbody,
+ tr {
+ 	border: 2px solid #d7c797;
+}
+/*
+container books
+*/
+.img-army-md4 {
+	width: 250px;
+	height: 250px;
+	border-radius: 5px;
+	border: 4px solid #d7c797;
+	box-shadow: 0px 0px 3px 1px #845422;
+	margin-top: 5%;
+	margin-left: 25px;
+	display: grid;
+	align-content: center;
+}
+.army-container {
+	background-color: #6b3e26;
+	border-radius: 5px;
+	border: 4px solid #d7c797;
+	padding-bottom: 2%;
+	display: grid;
+	box-shadow: 0px 0px 3px 1px #845422;
+}
+.img-army-md4:hover {
+	opacity: 2;
+	border: 2px dashed #f6d9d5;
+}
+.aml-p-army {
+	color: #f7f7f7;
+	padding: 1px;
+	text-align: center;
+	font-family: 'Viga', sans-serif;
+}
+.aml-p-army-left {
+	color: #f7f7f7;
+	padding: 1px;
+	text-align: left;
+}
+.army-button {
+	border-radius: 5px;
+	border: 2px solid #d7c797/*#737171*/;
+	background-color: #a47c48/*#343d46*/;
+	padding: 2%;
+	display: grid;
+	text-align: center;
+	margin-left: 2%;
+	margin-right: 2%;
+	box-shadow: 0px 0px 3px 1px #845422;
+}
+.army-button-minus {
+	border-radius: 3px;
+	border: 2px solid #8c9557;
+	background-color: #18392b;
+	padding: 1px;
+	display: block;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+/*.imgspace {
+	height: 45px;
+	position: absolute;
+	margin-left: -45px;
+	margin-top: 5px;
+}*/
