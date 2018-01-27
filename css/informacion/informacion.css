@@ -4,7 +4,7 @@
 	font-family: 'Crimson Text', serif;
 	text-align: center;
 	display: inline-block;
-	color: 	#65737e;
+	color: #ffeead;
 }
 .info_aml_title h1 {
 	font-size: 7rem;
@@ -17,64 +17,123 @@
 	text-align: center;
 }
 .info_aml_general1 h2 {
-	color: 	#65737e;
+	color: 	#ffffff;
 	font-size: 3.5rem;
 }
 .info_aml_general1, .info_aml_general2, .iag3, .ob1, .ob2, .ob3, .pr1, .pr2, .pr3 p {
-	color: 	#a7adba;
+	color: 	#f9f9f9;
 	font-size: 2.6rem;
 }
 .info_aml_general2 h2 {
-	color: 	#65737e;
+	color: 	#ffffff;
 	font-size: 3.5rem;
 }
 .iag3 h2 {
-	color: 	#65737e;
+	color: 	#ffffff;
 	font-size: 3.5rem;	
 }
 .ob1 h2 {
-	color: 	#65737e;
+	color: 	#ffffff;
 	font-size: 3.5rem;	
 }
 .ob2 h2 {
-	color: #65737e;
+	color: #ffffff;
 	font-size: 3.5rem;
 }
 .ob3 h2 {
-	color: #65737e;
+	color: #ffffff;
 	font-size: 3.5rem;
 }
 .pr1 h2 {
-	color: #65737e;
+	color: #ffffff;
 	font-size: 3.5rem;
 }
 .pr2 h2 {
-	color: #65737e;
+	color: #ffffff;
 	font-size: 3.5rem;
 }
 .pr3 h2 {
-	color: #65737e;
+	color: #ffffff;
 	font-size: 3.5rem;
 }
 /*add classes*/
 .hr_info {
-	border-top: 4px solid #6fcb9f;
+	border-top: 2px dashed 	#ffcc5c;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 .hrta {
-	border-top: 4px double #e0301e;	
-	opacity: 0.5;
+	border-top: 2px dashed 	#ffcc5c;	
+	
 }
 .hrtb {
-	border-top: 4px double #eb8c00;	
-	opacity: 0.5;
+	border-top: 2px dashed 	#ffcc5c;	
+	
 }
 .hrtc {
-	border-top: 4px double #005b96;	
-	opacity: 0.5;
+	border-top: 2px dashed 	#ffcc5c;	
+	
 }
 .bkia {
-	background-color: #f7f7f7;
-	border: 1px solid #ffffff;
+	background-color: #343d46;
+	border: 2px solid #36454f;
 	border-radius: 5px;
-	box-shadow: 1px 1px 8px 1px #c0c5ce;
+	box-shadow: 0px 2px 2px 0px #111111;
+	opacity: 0.9;
+}
+/*
+TRON
+*/
+.nav-tron {
+	border-top: 2px solid #ffbf00;
+}
+.footerp-tron {
+	border-bottom: 2px solid #ffbf00;
+}
+.footerp-tron:hover {
+	text-decoration: none;
+	color: #c0c5ce;
+}
+.c9 {
+	color: #999999;
+}
+.box-controlf {
+	/*something here*/
+}
+.icon-color {
+	/*some color*/
+}
+/*
+Version 1.1 Actualizado el 7 de octubre del 2017
+*/
+.ultimate-hr hr {
+	border-top: 1px dashed #e8702a;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.centerio {
+	text-align: center;
+}
+#asphalt-footer {
+	/*border-top-style: ridge;*/
+	border-top:2px solid #c4268c;
+	position: relative;
+}
+#asphalt-footer:first-child:before {
+	content:'';
+    position:absolute;
+    width:100%;
+    height:2px;
+    background:linear-gradient(to left, #e8702a, #ff9900, #e8702a );
+    top:-2px;
+    left:0;
+}
+.cap-gold {
+	color: #999999/*#ffbf00*/;
+	font-weight: bold;
+}
+.cap-gold:hover {
+	color: #ffbf00/*#a67c00*/;
+	text-decoration-style: dashed;
+	text-decoration-color: #e0301e; 
 }
