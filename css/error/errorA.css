@@ -1,0 +1,31 @@
+.amlerror h3{
+	background-color: #ffffff;
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+	opacity: 0.66;
+	/*margin-right: 50%;*/
+}
+.amlerrorfour h1 {
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+	margin-top: 20%;
+}
+body h1 {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 6em;
+}
+body p {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2.5em;
+}
+.amlatt {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 2.5em;
+	/*background-color: #ffcc5c;*/
+	/*color: 	#f5f5f5;*/
+	border: 3px solid #ff6f69;
+	border-radius: 5px;
+	width: 100%;
+	
+
+}
