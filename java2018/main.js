@@ -98,7 +98,7 @@ $(document).ready(function (){
 		html: "<a><img><p/><h2/><p/><div/></a>",
 	});
 	$(".a1").find("img").eq(0).attr({
-		"src": "Imagenes2018/Craneo.jpg",
+		"src": "imagenes2018/Craneo.jpg",
 		"class": "imgpost1-l",
 	});
 	$(".a1").find("p").eq(0).html("MedicinaResources - Cursos").attr({
@@ -127,7 +127,7 @@ $(document).ready(function (){
 		html: "<a><img><p/><h2/><p/><div/></a>",
 	});
 	$(".a2").find("img").eq(0).attr({
-		"src": "Imagenes2018/Fisiología.jpg",
+		"src": "imagenes2018/Fisiología.jpg",
 		"class": "imgpost1-l",
 	});
 	$(".a2").find("p").eq(0).html("MedicinaResources - Cursos").attr({
@@ -156,7 +156,7 @@ $(document).ready(function (){
 		html: "<a><img><p/><h2/><p/><div/></a>",
 	});
 	$(".a3").find("img").eq(0).attr({
-		"src": "Imagenes2018/Histología.jpg",
+		"src": "imagenes2018/Histología.jpg",
 		"class": "imgpost1-l",
 	});
     $(".a3").find("p").eq(0).html("MedicinaResources - Cursos").attr({
@@ -189,7 +189,7 @@ $(document).ready(function (){
 	});
 	$("<img>",{
 		"appendTo": ".container2",
-		"src": "Imagenes2018/sea-recortado.png"
+		"src": "imagenes2018/sea-recortado.png"
 	});
 	$("<div>",{
 		"appendTo": ".container2",
@@ -236,7 +236,7 @@ $(document).ready(function (){
 		html: "<a><img><p/><h2/><p/><div/></a>",
 	});
 	$(".a4").find("img").eq(0).attr({
-		"src": "Imagenes2018/bioquimica.jpg",
+		"src": "imagenes2018/bioquimica.jpg",
 		"class": "imgpost1-l",
 	});
 	$(".a4").find("p").eq(0).html("MedicinaResources - Cursos").attr({
@@ -265,7 +265,7 @@ $(document).ready(function (){
 		html: "<a><img><p/><h2/><p/><div/></a>",
 	});
 	$(".a5").find("img").eq(0).attr({
-		"src": "Imagenes2018/saludpublica.jpg",
+		"src": "imagenes2018/saludpublica.jpg",
 		"class": "imgpost1-l",
 	});
 	$(".a5").find("p").eq(0).html("MedicinaResources - Cursos").attr({
@@ -294,7 +294,7 @@ $(document).ready(function (){
 		html: "<a><img><p/><h2/><p/><div/></a>",
 	});
 	$(".a6").find("img").eq(0).attr({
-		"src": "Imagenes2018/semiologia.jpg",
+		"src": "imagenes2018/semiologia.jpg",
 		"class": "imgpost1-l",
 	});
     $(".a6").find("p").eq(0).html("{{t1}}").attr({
